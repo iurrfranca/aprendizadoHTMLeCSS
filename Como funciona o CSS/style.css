@@ -2,3 +2,47 @@ body {
     background-color: black;
     color: white;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: 18%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+.botao {
+    background-color: #22d4fd;
+    /* cor de fundo */
+    color: #fff;
+    /* cor do texto */
+    border: none;
+    /* sem borda */
+    border-radius: 8px;
+    /* borda arredondada */
+    padding: 10px 24px;
+    /* espaço interno */
+    margin: 8px;
+    /* espaço externo */
+    cursor: pointer;
+    /* cursor de mãozinha */
+    font-size: 1rem;
+    /* tamanho da fonte */
+    transition: background 0.3s;
+    width: 158px;
+    height: 50px;
+}
+
+.botao a {
+    color: #000000;
+    /* cor do texto do link */
+    text-decoration: none;
+    /* remove sublinhado */
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao:hover {
+    background-color: #0d97b6;
+    /* cor ao passar o mouse */
+}
